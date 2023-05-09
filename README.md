@@ -21,19 +21,21 @@ Our Project was created based of both our interest in electric vehicles and thei
     What are potential impacts of the results
     Who are stakeholders interested in your results
 
-Data Analysis: Provide details about the dataset, data preparation, exploratory data analysis, and statistical analysis. More specifically:
-What cleaning of the dataset did you need to perform (e.g.. are there missing values and how did you handle the missing values)
-How are you merging the tables
-What are challenges with data preparation
-What data aggregation techniques are you applying
+
 What visualizations informatively present the attributes and relationships
-What statistical hypothesis tests are you computing
 Make sure you set your null and alternative hypotheses up correctly. Please come see me if you have questions about how to do this
 
 Our dataset was obtained from Data.gov (https://catalog.data.gov/dataset/electric-vehicle-population-data)
 This dataset is riddled with errors, some of which include 97% empty values in the [Base MSRP], many empty values (0) in the [Electric Range], and most vehicles after 2020 having inaccurate/empty data.
 
 To deal with these inconsistincies, initially we cleaned out our data in our individual projects, but that was very inefficient. We then decided to create a different set of files for our clean data, and this was made up of vehicles without any missing values excluding MSRP. 
+
+We used time aggregation, attempting to update our data as we went along, however the data we used never really improved over time, so we had to make due with what we got.
+
+We made a series of Visualizations, but the most informative are the ones we concluded with: ExponentialFunctionFit.png (Group of High Range EV's, modeled used an exponential growth function), LowerGroupExponential.png (Group of Low Range EV's, modeled used an exponential growth function), electric_range_vs_model_year_by_car_model.png (Scatter Plot of every individual Car Model, and their average EV Range, with line of best fit between their instances)
+
+
+Our statistical Hypothesis is that the EV Range of the aggregate of all EV Models will go up overtime
 
 Classification Results: Describe the classification approach you developed and its performance. More specifically:
 What attribute are you using as class information (i.e., what attribute or attributes are you predicting)
