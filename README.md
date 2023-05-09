@@ -8,13 +8,9 @@ ppt for the project through presentation 1 to final product:
 
 Technical Report:
   
-  Our Project was created based of both our interest in electric vehicles and their evolution in Washigton. We both were interested in the mechanical evolution of their batteries and range systems leading us to research datasets related to electric vehicles in washington. We came across a dataset on Data.gov what seemed to be a reliable source with complete data that had a datasheet with the information of all the electric vehicles registered in washington state. the dataset format we chose to download was the csv format as it was the one we were most familiar with and had practiced with the most in python and c++.
-  Introduction: Briefly describe the project domain, the dataset, your hypotheses, and the classification task you implemented. More specifically:
-    Why is the domain important to you and why you are researching in this domain
-    What is the dataset format (e.g. CSV files, JSON files, a mix of the two, etc.)
-    What tables (emphasis on the plural here) are included in the dataset
-      How is the data in each table collected
-      How many instances are there in each table
+  Our Project was created based of both our interest in electric vehicles and their evolution in Washigton. We both were interested in the mechanical evolution of their batteries and range systems leading us to research datasets related to electric vehicles in washington. We came across a dataset on Data.gov what seemed to be a reliable source with complete data that had a datasheet with the information of all the electric vehicles registered in washington state. the dataset format we chose to download was the csv format as it was the one we were most familiar with and had practiced with the most in python and c++. over the course of our project we have created 11 different tables or graphs. The data that we havve in our graph include VIN (1-10), County, City, State	Postal Code, Model Year, Make Model, Electric Vehicle Type,	Clean Alternative Fuel Vehicle (CAFV) Eligibility,	Electric Range,	Base MSRP,	Legislative District,	DOL Vehicle ID, Vehicle Location, Electric Utility, 2020 Census Tract. there was originally 114601 instances of this data in our dataset. With the process of evaluating this data we can predict the evolution of the range of electric vehicles and subsequently the growth of electric vehicles in washington as a whole.
+ 
+ 
     Include a brief description of the attributes
     What are you trying to classify in the dataset
     What are potential impacts of the results
