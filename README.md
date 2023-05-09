@@ -29,6 +29,9 @@ What visualizations informatively present the attributes and relationships
 What statistical hypothesis tests are you computing
 Make sure you set your null and alternative hypotheses up correctly. Please come see me if you have questions about how to do this
 
+Our dataset was obtained from Data.gov (https://catalog.data.gov/dataset/electric-vehicle-population-data)
+This dataset is riddled with errors, some of which include 97% empty values in the [Base MSRP], many empty values (0) in the [Electric Range], and most vehicles after 2020 having inaccurate/empty data
+
 Classification Results: Describe the classification approach you developed and its performance. More specifically:
 What attribute are you using as class information (i.e., what attribute or attributes are you predicting)
 What is the distribution of the class labels? (e.g. 50% yes, 50% no; or 70% weekday, 30% weekend, etc.)
