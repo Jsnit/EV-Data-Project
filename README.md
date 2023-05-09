@@ -1,7 +1,7 @@
 # EV-Data-Project
 Modeling of Electric Vehicle Ownership Data in Washington State
 
-This project is for Gonzaga Universities CPSC 222- Introduction to Data Science course. In this project Jake Snitily and Luke Sahlin are modeling electriv vehicle data in Washington State, with the intent to predict future data.
+This project is for Gonzaga Universities CPSC 222- Introduction to Data Science course. In this project Jake Snitily and Luke Sahlin are modeling electric vehicle data in Washington State, with the intent to predict future data.
 
 ppt for the project through presentation 1 to final product:
   https://docs.google.com/presentation/d/1jHYPYOee2PZutKMwLYdf8FO_ix_bWlbAmy465RthxqA/edit?usp=sharing
@@ -20,10 +20,6 @@ Technical Report:
     What are potential impacts of the results
     Who are stakeholders interested in your results
 
-
-What visualizations informatively present the attributes and relationships
-Make sure you set your null and alternative hypotheses up correctly. Please come see me if you have questions about how to do this
-
 Our dataset was obtained from Data.gov (https://catalog.data.gov/dataset/electric-vehicle-population-data)
 This dataset is riddled with errors, some of which include 97% empty values in the [Base MSRP], many empty values (0) in the [Electric Range], and most vehicles after 2020 having inaccurate/empty data.
 
@@ -33,15 +29,12 @@ We used time aggregation, attempting to update our data as we went along, howeve
 
 We made a series of Visualizations, but the most informative are the ones we concluded with: ExponentialFunctionFit.png (Group of High Range EV's, modeled used an exponential growth function), LowerGroupExponential.png (Group of Low Range EV's, modeled used an exponential growth function), electric_range_vs_model_year_by_car_model.png (Scatter Plot of every individual Car Model, and their average EV Range, with line of best fit between their instances)
 
-
 Our statistical Hypothesis is that the EV Range of the aggregate of all EV Models will go up overtime
 
-Classification Results: Describe the classification approach you developed and its performance. More specifically:
-What attribute are you using as class information (i.e., what attribute or attributes are you predicting)
-What is the distribution of the class labels? (e.g. 50% yes, 50% no; or 70% weekday, 30% weekend, etc.)
-What are your hypotheses about the predictions
-How are you evaluating performance of your kNN and decision tree classifier? How do their results compare?
-What are challenges with classification
+We utilized our datasets [Model Year], [Electric Range], [Model], and [Base MSRP]. We are predicting the changes in Electric Range based on the Model Year.
+
+We hypothesize that our prediction has been proved so far, and with the addition of newer data in years to come, a comparison of our slopes for [Electric Range] rate of growth, and the new values will add aditional insight into our results.
+
 
 Conclusion: Provide a brief conclusion of your project, including:
 A short summary of the dataset you used
