@@ -8,8 +8,7 @@ ppt for the project through presentation 1 to final product:
 
 Technical Report:
   
-Your Notebook should have, at a minimum, the following sections (in the order given below):
-Our Project was created based of both our interest in electric vehicles and their evolution in Washigton. We both were interested in the mechanical evolution of their batteries and range systems leading us to research datasets related to electric vehicles in washington. We came across a dataset on Data.gov what seemed to be a reliable source with complete data that had a datasheet with the information of all the electric vehicles registered in washington state. the dataset format we chose to download was the csv format as it was the one we were most familiar with and had practiced with the most in python and c++.
+  Our Project was created based of both our interest in electric vehicles and their evolution in Washigton. We both were interested in the mechanical evolution of their batteries and range systems leading us to research datasets related to electric vehicles in washington. We came across a dataset on Data.gov what seemed to be a reliable source with complete data that had a datasheet with the information of all the electric vehicles registered in washington state. the dataset format we chose to download was the csv format as it was the one we were most familiar with and had practiced with the most in python and c++.
   Introduction: Briefly describe the project domain, the dataset, your hypotheses, and the classification task you implemented. More specifically:
     Why is the domain important to you and why you are researching in this domain
     What is the dataset format (e.g. CSV files, JSON files, a mix of the two, etc.)
