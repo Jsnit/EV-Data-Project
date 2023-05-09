@@ -31,8 +31,8 @@ We utilized our datasets [Model Year], [Electric Range], [Model], and [Base MSRP
 
 We hypothesize that our prediction has been proved so far, and with the addition of newer data in years to come, a comparison of our slopes for [Electric Range] rate of growth, and the new values will add aditional insight into our results.
 
+Our dataset was very subpar, probably because it was free from a governemet website, this dataset included a range of factors that describe a vehicle from VIN number, to Model, to Electric Range. However this dataset was very incomplete and at times inaccurate.
 
-Conclusion: Provide a brief conclusion of your project, including:
-A short summary of the dataset you used
-The classification approach you developed, your classifiers’ performance, and any ideas you have on ways to improve performance. 
-Describe the potential impacts of your work (including ethical impacts) for the stakeholder’s you described in the introduction.
+We utilized Pandas, Matplotlib for our visualiztions, and sciKit for a variety of functions
+
+Anyone interested in purchasing an EV will be interested in these results, as they show the quality of a technology increasing overtime, for the past ~10 years. 
