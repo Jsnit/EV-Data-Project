@@ -6,3 +6,5 @@ This project is for Gonzaga Universities CPSC 222- Introduction to Data Science 
 ppt for the project through presentation 1 to final product:
   https://docs.google.com/presentation/d/1jHYPYOee2PZutKMwLYdf8FO_ix_bWlbAmy465RthxqA/edit?usp=sharing
 
+Technical Report:
+  
