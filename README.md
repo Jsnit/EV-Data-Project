@@ -31,7 +31,9 @@ What statistical hypothesis tests are you computing
 Make sure you set your null and alternative hypotheses up correctly. Please come see me if you have questions about how to do this
 
 Our dataset was obtained from Data.gov (https://catalog.data.gov/dataset/electric-vehicle-population-data)
-This dataset is riddled with errors, some of which include 97% empty values in the [Base MSRP], many empty values (0) in the [Electric Range], and most vehicles after 2020 having inaccurate/empty data
+This dataset is riddled with errors, some of which include 97% empty values in the [Base MSRP], many empty values (0) in the [Electric Range], and most vehicles after 2020 having inaccurate/empty data.
+
+To deal with these inconsistincies, initially we cleaned out our data in our individual projects, but that was very inefficient. We then decided to create a different set of files for our clean data, and this was made up of vehicles without any missing values excluding MSRP. 
 
 Classification Results: Describe the classification approach you developed and its performance. More specifically:
 What attribute are you using as class information (i.e., what attribute or attributes are you predicting)
